@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		137F0B8EE614716D058070EA /* Pods_BudgetGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60494F047BC201A9DF1C53F0 /* Pods_BudgetGoTests.framework */; };
+		8358613B89561790E2A1DDAA /* Pods_BudgetGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3DC08C715E3E1F21CCD6F2 /* Pods_BudgetGo.framework */; };
+		9C05D895A74901DE34536AF4 /* Pods_BudgetGo_BudgetGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEC10A222254130B7F3E27C /* Pods_BudgetGo_BudgetGoUITests.framework */; };
 		E64C866A23FDCC5600D22A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C866923FDCC5600D22A32 /* AppDelegate.swift */; };
 		E64C866C23FDCC5600D22A32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C866B23FDCC5600D22A32 /* SceneDelegate.swift */; };
-		E64C866E23FDCC5600D22A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C866D23FDCC5600D22A32 /* ViewController.swift */; };
 		E64C867123FDCC5600D22A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64C866F23FDCC5600D22A32 /* Main.storyboard */; };
 		E64C867323FDCC5900D22A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64C867223FDCC5900D22A32 /* Assets.xcassets */; };
 		E64C867623FDCC5900D22A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64C867423FDCC5900D22A32 /* LaunchScreen.storyboard */; };
 		E64C868123FDCC5900D22A32 /* BudgetGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C868023FDCC5900D22A32 /* BudgetGoTests.swift */; };
 		E64C868C23FDCC5900D22A32 /* BudgetGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C868B23FDCC5900D22A32 /* BudgetGoUITests.swift */; };
+		E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E1596241F3E8F005D8E6A /* LoginViewController.swift */; };
+		E65E1599241FFD28005D8E6A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E1598241FFD28005D8E6A /* MainViewController.swift */; };
+		E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E159A242000C1005D8E6A /* RegisgterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047E2F1B360514C956B8C150 /* Pods-BudgetGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGo.debug.xcconfig"; path = "Target Support Files/Pods-BudgetGo/Pods-BudgetGo.debug.xcconfig"; sourceTree = "<group>"; };
+		167EE7922348DE239355F01F /* Pods-BudgetGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGoTests.debug.xcconfig"; path = "Target Support Files/Pods-BudgetGoTests/Pods-BudgetGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FEC10A222254130B7F3E27C /* Pods_BudgetGo_BudgetGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetGo_BudgetGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5183F36D21CDE599095E576E /* Pods-BudgetGo-BudgetGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGo-BudgetGoUITests.release.xcconfig"; path = "Target Support Files/Pods-BudgetGo-BudgetGoUITests/Pods-BudgetGo-BudgetGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60494F047BC201A9DF1C53F0 /* Pods_BudgetGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3DC08C715E3E1F21CCD6F2 /* Pods_BudgetGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9098EF0F383BFDA1BF5CF595 /* Pods-BudgetGo-BudgetGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGo-BudgetGoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BudgetGo-BudgetGoUITests/Pods-BudgetGo-BudgetGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		942C350DAD84F167C718A79B /* Pods-BudgetGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGo.release.xcconfig"; path = "Target Support Files/Pods-BudgetGo/Pods-BudgetGo.release.xcconfig"; sourceTree = "<group>"; };
 		E64C866623FDCC5600D22A32 /* BudgetGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64C866923FDCC5600D22A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E64C866B23FDCC5600D22A32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E64C866D23FDCC5600D22A32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E64C867023FDCC5600D22A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E64C867223FDCC5900D22A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64C867523FDCC5900D22A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		E64C868723FDCC5900D22A32 /* BudgetGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64C868B23FDCC5900D22A32 /* BudgetGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetGoUITests.swift; sourceTree = "<group>"; };
 		E64C868D23FDCC5900D22A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65E1596241F3E8F005D8E6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E65E1598241FFD28005D8E6A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E65E159A242000C1005D8E6A /* RegisgterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisgterViewController.swift; sourceTree = "<group>"; };
+		F140FE35AF91A5612210FBE5 /* Pods-BudgetGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGoTests.release.xcconfig"; path = "Target Support Files/Pods-BudgetGoTests/Pods-BudgetGoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8358613B89561790E2A1DDAA /* Pods_BudgetGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137F0B8EE614716D058070EA /* Pods_BudgetGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C05D895A74901DE34536AF4 /* Pods_BudgetGo_BudgetGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDE74B85230E0227DEC58CE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				047E2F1B360514C956B8C150 /* Pods-BudgetGo.debug.xcconfig */,
+				942C350DAD84F167C718A79B /* Pods-BudgetGo.release.xcconfig */,
+				9098EF0F383BFDA1BF5CF595 /* Pods-BudgetGo-BudgetGoUITests.debug.xcconfig */,
+				5183F36D21CDE599095E576E /* Pods-BudgetGo-BudgetGoUITests.release.xcconfig */,
+				167EE7922348DE239355F01F /* Pods-BudgetGoTests.debug.xcconfig */,
+				F140FE35AF91A5612210FBE5 /* Pods-BudgetGoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0866D5585EFF978361B19A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DC08C715E3E1F21CCD6F2 /* Pods_BudgetGo.framework */,
+				2FEC10A222254130B7F3E27C /* Pods_BudgetGo_BudgetGoUITests.framework */,
+				60494F047BC201A9DF1C53F0 /* Pods_BudgetGoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E64C865D23FDCC5600D22A32 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				E64C867F23FDCC5900D22A32 /* BudgetGoTests */,
 				E64C868A23FDCC5900D22A32 /* BudgetGoUITests */,
 				E64C866723FDCC5600D22A32 /* Products */,
+				BDE74B85230E0227DEC58CE3 /* Pods */,
+				D0866D5585EFF978361B19A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +145,13 @@
 			children = (
 				E64C866923FDCC5600D22A32 /* AppDelegate.swift */,
 				E64C866B23FDCC5600D22A32 /* SceneDelegate.swift */,
-				E64C866D23FDCC5600D22A32 /* ViewController.swift */,
 				E64C866F23FDCC5600D22A32 /* Main.storyboard */,
 				E64C867223FDCC5900D22A32 /* Assets.xcassets */,
 				E64C867423FDCC5900D22A32 /* LaunchScreen.storyboard */,
 				E64C867723FDCC5900D22A32 /* Info.plist */,
+				E65E1596241F3E8F005D8E6A /* LoginViewController.swift */,
+				E65E1598241FFD28005D8E6A /* MainViewController.swift */,
+				E65E159A242000C1005D8E6A /* RegisgterViewController.swift */,
 			);
 			path = BudgetGo;
 			sourceTree = "<group>";
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E64C869023FDCC5900D22A32 /* Build configuration list for PBXNativeTarget "BudgetGo" */;
 			buildPhases = (
+				22A2451A2E7A4F9EB025098B /* [CP] Check Pods Manifest.lock */,
 				E64C866223FDCC5600D22A32 /* Sources */,
 				E64C866323FDCC5600D22A32 /* Frameworks */,
 				E64C866423FDCC5600D22A32 /* Resources */,
+				B69211267ED89C46BCA3D620 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E64C869323FDCC5900D22A32 /* Build configuration list for PBXNativeTarget "BudgetGoTests" */;
 			buildPhases = (
+				43EC6EFDD1CFA1A220F7D4C9 /* [CP] Check Pods Manifest.lock */,
 				E64C867823FDCC5900D22A32 /* Sources */,
 				E64C867923FDCC5900D22A32 /* Frameworks */,
 				E64C867A23FDCC5900D22A32 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E64C869623FDCC5900D22A32 /* Build configuration list for PBXNativeTarget "BudgetGoUITests" */;
 			buildPhases = (
+				E4356F14EB59E9DB26BE0E63 /* [CP] Check Pods Manifest.lock */,
 				E64C868323FDCC5900D22A32 /* Sources */,
 				E64C868423FDCC5900D22A32 /* Frameworks */,
 				E64C868523FDCC5900D22A32 /* Resources */,
+				62A626FFDB9066E2C500BC20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +305,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A2451A2E7A4F9EB025098B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43EC6EFDD1CFA1A220F7D4C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A626FFDB9066E2C500BC20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGo-BudgetGoUITests/Pods-BudgetGo-BudgetGoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGo-BudgetGoUITests/Pods-BudgetGo-BudgetGoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetGo-BudgetGoUITests/Pods-BudgetGo-BudgetGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69211267ED89C46BCA3D620 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGo/Pods-BudgetGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGo/Pods-BudgetGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetGo/Pods-BudgetGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4356F14EB59E9DB26BE0E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetGo-BudgetGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E64C866223FDCC5600D22A32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64C866E23FDCC5600D22A32 /* ViewController.swift in Sources */,
+				E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */,
 				E64C866A23FDCC5600D22A32 /* AppDelegate.swift in Sources */,
+				E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */,
 				E64C866C23FDCC5600D22A32 /* SceneDelegate.swift in Sources */,
+				E65E1599241FFD28005D8E6A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +588,7 @@
 		};
 		E64C869123FDCC5900D22A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047E2F1B360514C956B8C150 /* Pods-BudgetGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +606,7 @@
 		};
 		E64C869223FDCC5900D22A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942C350DAD84F167C718A79B /* Pods-BudgetGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +624,7 @@
 		};
 		E64C869423FDCC5900D22A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167EE7922348DE239355F01F /* Pods-BudgetGoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +646,7 @@
 		};
 		E64C869523FDCC5900D22A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F140FE35AF91A5612210FBE5 /* Pods-BudgetGoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +668,7 @@
 		};
 		E64C869723FDCC5900D22A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9098EF0F383BFDA1BF5CF595 /* Pods-BudgetGo-BudgetGoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +688,7 @@
 		};
 		E64C869823FDCC5900D22A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5183F36D21CDE599095E576E /* Pods-BudgetGo-BudgetGoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

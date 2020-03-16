@@ -1,0 +1,26 @@
+BUDGET GO
+
+Database: heroku
+   APPID: BudgetGo
+   Masterkey : team2
+   link: https://dashboard.heroku.com/apps/fierce-atoll-42166
+   command to access the data: 
+   npm install -g parse-dashboard // install the parse 
+  parse-dashboard --appId BudgetGo --masterKey team2 --serverURL "https://fierce-atoll-42166.herokuapp.com/parse"
+  
+  
+  
+  This application use local database from heroku. 
+  
+  How to install Parse: 
+  cd BudgetGo 
+  pod init 
+  open Podfile 
+  
+  //tyoe : pop "Parse" on the text file  
+   pop install 
+   
+   then open the workspace to code for project 
+   
+   
+   

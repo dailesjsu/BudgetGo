@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(
         with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
          configuration.applicationId = "BudgetGo"
-         configuration.server = "https://fierce-atoll-42166.herokuapp.com"
+         configuration.server = "https://fierce-atoll-42166.herokuapp.com/parse"
         })
         )
         return true

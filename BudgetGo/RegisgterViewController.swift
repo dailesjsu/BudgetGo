@@ -16,7 +16,6 @@ class RegisgterViewController: UIViewController {
     
     @IBOutlet weak var passwordField: UITextField!
     
-    @IBOutlet weak var RetypePasswordField: UITextField!
     
     
     @IBOutlet weak var EmailField: UITextField!
@@ -24,19 +23,17 @@ class RegisgterViewController: UIViewController {
     
     @IBAction func RegisterButton(_ sender: Any) {
         let user = PFUser()
-        user.username = usernameField.text!
-        user.password = passwordField.text!
+        user.username = usernameField.text
+        user.password = passwordField.text  
         user.email = EmailField.text
-        
         user.signUpInBackground{ (success, error) in
                    if success {
-                       self.performSegue(withIdentifier: "loginSeque", sender: nil)
+                       self.performSegue(withIdentifier: "backtologinSeque", sender: nil)
                    } else {
                        print("Error: \(error?.localizedDescription)")
                    }
                    
                }
-        
         
     }
     

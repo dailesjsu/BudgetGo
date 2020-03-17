@@ -18,8 +18,8 @@
 		E64C868123FDCC5900D22A32 /* BudgetGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C868023FDCC5900D22A32 /* BudgetGoTests.swift */; };
 		E64C868C23FDCC5900D22A32 /* BudgetGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C868B23FDCC5900D22A32 /* BudgetGoUITests.swift */; };
 		E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E1596241F3E8F005D8E6A /* LoginViewController.swift */; };
-		E65E1599241FFD28005D8E6A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E1598241FFD28005D8E6A /* MainViewController.swift */; };
 		E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E159A242000C1005D8E6A /* RegisgterViewController.swift */; };
+		E65E159D24205014005D8E6A /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E159C24205014005D8E6A /* MainFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,8 @@
 		E64C868B23FDCC5900D22A32 /* BudgetGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetGoUITests.swift; sourceTree = "<group>"; };
 		E64C868D23FDCC5900D22A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E65E1596241F3E8F005D8E6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E65E1598241FFD28005D8E6A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E65E159A242000C1005D8E6A /* RegisgterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisgterViewController.swift; sourceTree = "<group>"; };
+		E65E159C24205014005D8E6A /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		F140FE35AF91A5612210FBE5 /* Pods-BudgetGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGoTests.release.xcconfig"; path = "Target Support Files/Pods-BudgetGoTests/Pods-BudgetGoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,8 +150,8 @@
 				E64C867423FDCC5900D22A32 /* LaunchScreen.storyboard */,
 				E64C867723FDCC5900D22A32 /* Info.plist */,
 				E65E1596241F3E8F005D8E6A /* LoginViewController.swift */,
-				E65E1598241FFD28005D8E6A /* MainViewController.swift */,
 				E65E159A242000C1005D8E6A /* RegisgterViewController.swift */,
+				E65E159C24205014005D8E6A /* MainFeedViewController.swift */,
 			);
 			path = BudgetGo;
 			sourceTree = "<group>";
@@ -414,10 +414,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */,
+				E65E159D24205014005D8E6A /* MainFeedViewController.swift in Sources */,
 				E64C866A23FDCC5600D22A32 /* AppDelegate.swift in Sources */,
 				E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */,
 				E64C866C23FDCC5600D22A32 /* SceneDelegate.swift in Sources */,
-				E65E1599241FFD28005D8E6A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

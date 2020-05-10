@@ -1,8 +1,8 @@
 //
-//  MainFeedViewController.swift
+//  FeedbackViewController.swift
 //  BudgetGo
 //
-//  Created by Dai Le on 3/16/20.
+//  Created by Dai Le on 5/10/20.
 //  Copyright © 2020 daile14011997@gmail.com. All rights reserved.
 //
 
@@ -10,27 +10,18 @@ import UIKit
 import Parse
 import Alamofire
 
-class MainFeedViewController: UIViewController{
-    
-    @IBOutlet weak var profileButton: UIButton!
-    
-    @IBOutlet weak var transactionButton: UIButton!
-    
-    @IBOutlet weak var DestinationButton: UIButton!
-    
-    @IBOutlet weak var feedbackButton: UIButton!
-    
-    
-    @IBOutlet weak var avatarView: UIImageView!
-    
+class FeedbackViewController: UIViewController {
 
+    @IBOutlet weak var feedbackText: UITextField!
     
+    @IBAction func OnsubmitButton(_ sender: Any) {
+        
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // let profile = PFObject(className: "Profile")
-        //profile["avatar"] = avatarView.image!
+        
 
         // Do any additional setup after loading the view.
     }
@@ -38,7 +29,6 @@ class MainFeedViewController: UIViewController{
 
     /*
     // MARK: - Navigation
-     
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -46,6 +36,5 @@ class MainFeedViewController: UIViewController{
         // Pass the selected object to the new view controller.
     }
     */
-    
 
 }

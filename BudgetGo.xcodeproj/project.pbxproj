@@ -20,6 +20,10 @@
 		E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E1596241F3E8F005D8E6A /* LoginViewController.swift */; };
 		E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E159A242000C1005D8E6A /* RegisgterViewController.swift */; };
 		E65E159D24205014005D8E6A /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E159C24205014005D8E6A /* MainFeedViewController.swift */; };
+		E65E69202467E25F00243B67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E691F2467E25F00243B67 /* ProfileViewController.swift */; };
+		E65E69222468979A00243B67 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E69212468979A00243B67 /* TransactionViewController.swift */; };
+		E65E69242468B86000243B67 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E69232468B86000243B67 /* FeedbackViewController.swift */; };
+		E65E69262468B9CE00243B67 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E69252468B9CE00243B67 /* DestinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		E65E1596241F3E8F005D8E6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E65E159A242000C1005D8E6A /* RegisgterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisgterViewController.swift; sourceTree = "<group>"; };
 		E65E159C24205014005D8E6A /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
+		E65E691F2467E25F00243B67 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E65E69212468979A00243B67 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		E65E69232468B86000243B67 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		E65E69252468B9CE00243B67 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		F140FE35AF91A5612210FBE5 /* Pods-BudgetGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGoTests.release.xcconfig"; path = "Target Support Files/Pods-BudgetGoTests/Pods-BudgetGoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +154,10 @@
 				E64C866923FDCC5600D22A32 /* AppDelegate.swift */,
 				E64C866B23FDCC5600D22A32 /* SceneDelegate.swift */,
 				E64C866F23FDCC5600D22A32 /* Main.storyboard */,
+				E65E69252468B9CE00243B67 /* DestinationViewController.swift */,
+				E65E69232468B86000243B67 /* FeedbackViewController.swift */,
+				E65E69212468979A00243B67 /* TransactionViewController.swift */,
+				E65E691F2467E25F00243B67 /* ProfileViewController.swift */,
 				E64C867223FDCC5900D22A32 /* Assets.xcassets */,
 				E64C867423FDCC5900D22A32 /* LaunchScreen.storyboard */,
 				E64C867723FDCC5900D22A32 /* Info.plist */,
@@ -413,10 +425,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65E69202467E25F00243B67 /* ProfileViewController.swift in Sources */,
+				E65E69222468979A00243B67 /* TransactionViewController.swift in Sources */,
 				E65E1597241F3E8F005D8E6A /* LoginViewController.swift in Sources */,
+				E65E69242468B86000243B67 /* FeedbackViewController.swift in Sources */,
 				E65E159D24205014005D8E6A /* MainFeedViewController.swift in Sources */,
 				E64C866A23FDCC5600D22A32 /* AppDelegate.swift in Sources */,
 				E65E159B242000C1005D8E6A /* RegisgterViewController.swift in Sources */,
+				E65E69262468B9CE00243B67 /* DestinationViewController.swift in Sources */,
 				E64C866C23FDCC5600D22A32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

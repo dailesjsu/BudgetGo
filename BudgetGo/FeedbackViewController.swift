@@ -15,8 +15,21 @@ class FeedbackViewController: UIViewController {
     @IBOutlet weak var feedbackText: UITextField!
     
     @IBAction func OnsubmitButton(_ sender: Any) {
+        let profile = PFObject(className: "Profile")
+         profile["feedback"] = feedbackText.text!
+         
+         profile.saveInBackground{ (success, error) in
+             if success{
+                 print("saved!")
+                 self.dismiss(animated: true, completion: nil)
+                 
+             }
+                 else {
+                     print("error")
+                 }
+             }
+         }
         
-    }
     
     
     override func viewDidLoad() {

@@ -9,7 +9,7 @@
 import UIKit
 
 class DestinationViewController: UIViewController{
-     let PlacesNameArr = ["Afghanistan, Uber: $5. Lyft:$10", "Albania, Uber: $4, Lyft: $3", "Banh Mi Oven,$5 Uber, $7 Lyft"]
+     let PlacesNameArr = ["Afghanistan, Uber: $5. Lyft:$10", "Albania, Uber: $4, Lyft: $3", "Banh Mi Oven,$5 Uber, $7 Lyft","Pho , Uber: $10.65, Lyft: $7.65", "Cheese Cake Factort, Uber: $95.54, Lyft: $15.87","SJSU, Uber: $5. Lyft:$10", "SFO, Uber: $4, Lyft: $3", "Mexico restaurant,$5 Uber, $7 Lyft","Walmart , Uber: $10.65, Lyft: $7.65", "Target, Uber: $95.54, Lyft: $15.87", "Library, Uber: $5. Lyft:$10", "Silver Lake, Uber: $4, Lyft: $3", "Evergreen Valley College,$5 Uber, $7 Lyft","BBQ hot pot , Uber: $10.65, Lyft: $7.65", "San Jose AirPort, Uber: $95.54, Lyft: $15.87","Taco  Bell, Uber: $5. Lyft:$10", "Jamba Juice, Uber: $4, Lyft: $3", "StarBuck,$5 Uber, $7 Lyft","Pho , Uber: $10.65, Lyft: $7.65", "LA Sanwiches, Uber: $95.54, Lyft: $15.87","Hash Table, Uber: $5. Lyft:$10", "Mission College, Uber: $4, Lyft: $3", "Indian food,$5 Uber, $7 Lyft","Pho , Uber: $10.65, Lyft: $7.65", "MeetFresh, Uber: $95.54, Lyft: $15.87"]
     
     var searchedPlace = [String]()
     var searching = false
